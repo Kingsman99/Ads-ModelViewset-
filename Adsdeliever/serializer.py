@@ -5,4 +5,4 @@ from .models import Ads
 class AdModelSerializer(serializers.ModelSerializer):
 	class Meta:
 		model=Ads 
-		fiels='__all__'
+		fields = '__all__'

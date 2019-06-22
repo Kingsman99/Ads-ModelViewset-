@@ -19,7 +19,7 @@ from rest_framework.routers import SimpleRouter
 from Adsdeliever.views import AdsModelView
 
 simplerouter=SimpleRouter()
-simplerouter.register(r'adsendp' , AdsModelView)
+simplerouter.register(r'adsendp', AdsModelView)
 
 
 urlpatterns = [
